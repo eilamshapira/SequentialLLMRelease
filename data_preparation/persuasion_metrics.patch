@@ -1,0 +1,14 @@
+--- a/analyze/metrics.py
++++ b/analyze/metrics.py
+@@ -363,8 +363,10 @@ class PersuasionMetrics(Metrics):
+         self.data["fairness"] = np.where(self.data["n_ev"] < 20, self.data["r_ev"] / (20 - self.data["n_ev"]), np.nan)
+
+         self.data["alice_final_share"] = self.data[deal_cols].sum(axis=1) / 20
++        low_quality_purchases = ((~self.data[quality_cols].to_numpy()) &
++                                 self.data[deal_cols].to_numpy()).sum(axis=1)
+         self.data["bob_final_share"] = ( self.data["k_ev"] * (self.data["game_args_v"] - 1) + \
+-                                         self.data["r_ev"] * (self.data["game_args_c"] - 1) ) /20
++                                         low_quality_purchases * (self.data["game_args_c"] - 1) ) /20
+
+         self.data["alice_self_gain"] = self.data["alice_final_share"]
+         self.data["bob_self_gain"] = self.data["bob_final_share"]

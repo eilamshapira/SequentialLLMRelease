@@ -1,0 +1,5300 @@
+{
+ "bargaining": {
+  "n_rows": 16224,
+  "sample": [
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.4927476190476166,
+    "ci_low": 0.4411471615947462,
+    "ci_high": 0.5443480765004871
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.4238844737490218,
+    "ci_low": 0.3665337717192358,
+    "ci_high": 0.4812351757788078
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_grok-2-1212",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.3649189385775814,
+    "ci_low": 0.3210088614228663,
+    "ci_high": 0.4088290157322966
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.5718013958637129,
+    "ci_low": 0.5342583271148408,
+    "ci_high": 0.6093444646125851
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.3943956521739112,
+    "ci_low": 0.3474260262814582,
+    "ci_high": 0.4413652780663643
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_gpt-4o-mini",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.509148275862068,
+    "ci_low": 0.4673188387769115,
+    "ci_high": 0.5509777129472245
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_mistral-large-2411",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.4113868401923086,
+    "ci_low": 0.3695201089092096,
+    "ci_high": 0.4532535714754077
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.3493940476190467,
+    "ci_low": 0.3028090495757302,
+    "ci_high": 0.3959790456623631
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_gpt-4o",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.4713750000000012,
+    "ci_low": 0.4223994943624557,
+    "ci_high": 0.5203505056375468
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.436086111111108,
+    "ci_low": 0.3901515884568092,
+    "ci_high": 0.4820206337654068
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.5182291666666653,
+    "ci_low": 0.4784487031373307,
+    "ci_high": 0.5580096301959998
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.5751249999999979,
+    "ci_low": 0.5264040813108652,
+    "ci_high": 0.6238459186891305
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.3942282870325214,
+    "ci_low": 0.3270385941883768,
+    "ci_high": 0.4614179798766661
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.4977042276322123,
+    "ci_low": 0.4373197061456145,
+    "ci_high": 0.5580887491188101
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.4256458663680011,
+    "ci_low": 0.3567969189126115,
+    "ci_high": 0.4944948138233908
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.4025196092105262,
+    "ci_low": 0.3383884249447112,
+    "ci_high": 0.4666507934763413
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_o3-mini",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.5357190864285706,
+    "ci_low": 0.4610085177024227,
+    "ci_high": 0.6104296551547184
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.3939404761904754,
+    "ci_low": 0.3329395522664098,
+    "ci_high": 0.454941400114541
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gpt-4o-mini",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.4820688000000003,
+    "ci_low": 0.4204273632216633,
+    "ci_high": 0.5437102367783373
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_mistral-large-2411",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.4250441533333328,
+    "ci_low": 0.3747141309603481,
+    "ci_high": 0.4753741757063174
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.4921596187499992,
+    "ci_low": 0.4370258416031524,
+    "ci_high": 0.5472933958968461
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gpt-4o",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.4613566093749997,
+    "ci_low": 0.4148911360962951,
+    "ci_high": 0.5078220826537044
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.4410180882352947,
+    "ci_low": 0.3772679848330955,
+    "ci_high": 0.5047681916374939
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.482589285714286,
+    "ci_low": 0.4329156053362252,
+    "ci_high": 0.5322629660923468
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gpt-4o",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.4992836538461507,
+    "ci_low": 0.45290944375698,
+    "ci_high": 0.5456578639353213
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.4319127975454511,
+    "ci_low": 0.3814987160907541,
+    "ci_high": 0.482326879000148
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.4873344361859048,
+    "ci_low": 0.4369203547312079,
+    "ci_high": 0.5377485176406017
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.5502993043478239,
+    "ci_low": 0.5033296784553708,
+    "ci_high": 0.597268930240277
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.3812565120689646,
+    "ci_low": 0.339427074983808,
+    "ci_high": 0.4230859491541212
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.5529739545454535,
+    "ci_low": 0.5049486996367689,
+    "ci_high": 0.6009992094541381
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.505328823529412,
+    "ci_low": 0.453552492974968,
+    "ci_high": 0.557105154083856
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_grok-2-1212",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.3334077665655245,
+    "ci_low": 0.2898314910551183,
+    "ci_high": 0.3769840420759306
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_o3-mini",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.5097103804086545,
+    "ci_low": 0.4678436491255554,
+    "ci_high": 0.5515771116917535
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.4093482738095212,
+    "ci_low": 0.3668211694627138,
+    "ci_high": 0.4518753781563287
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gpt-4o-mini",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.5063863636363612,
+    "ci_low": 0.4648370245722551,
+    "ci_high": 0.5479357027004674
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_mistral-large-2411",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.4286091770833312,
+    "ci_low": 0.3930284488321139,
+    "ci_high": 0.4641899053345485
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.437290349264706,
+    "ci_low": 0.3844856170474299,
+    "ci_high": 0.4900950814819821
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gpt-4o",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.4795920682499996,
+    "ci_low": 0.4180116975741746,
+    "ci_high": 0.5411724389258248
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.4326144047619044,
+    "ci_low": 0.3654247119177599,
+    "ci_high": 0.499804097606049
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.4680027777777763,
+    "ci_low": 0.402114249391914,
+    "ci_high": 0.5338913061636387
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.4452075404101968,
+    "ci_low": 0.3914097822607808,
+    "ci_high": 0.4990052985596128
+   },
+   {
+    "family": "bargaining",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.3618356989130432,
+    "ci_low": 0.3035472978327693,
+    "ci_high": 0.4201240999933172
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.4806790909090898,
+    "ci_low": 0.4234307737943621,
+    "ci_high": 0.5379274080238174
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.4595118752611606,
+    "ci_low": 0.4087666658200194,
+    "ci_high": 0.5102570847023018
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_grok-2-1212",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.4925365250000046,
+    "ci_low": 0.4388328432363461,
+    "ci_high": 0.5462402067636632
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_o3-mini",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.4448253071428592,
+    "ci_low": 0.3881856091810811,
+    "ci_high": 0.5014650051046373
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.4089384826388898,
+    "ci_low": 0.3477606166844859,
+    "ci_high": 0.4701163485932937
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_gpt-4o-mini",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.4432646312500001,
+    "ci_low": 0.3852262116086838,
+    "ci_high": 0.5013030508913164
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.4839999999999977,
+    "ci_low": 0.4329367277868714,
+    "ci_high": 0.5350632722131241
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.59402071722222,
+    "ci_low": 0.5401953022306647,
+    "ci_high": 0.6478461322137754
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_gpt-4o-mini",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.486260416666664,
+    "ci_low": 0.4445674294936646,
+    "ci_high": 0.5279534038396633
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_mistral-large-2411",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.4946433499999986,
+    "ci_low": 0.4505393470949156,
+    "ci_high": 0.5387473529050815
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.5195238095238098,
+    "ci_low": 0.4733673722893321,
+    "ci_high": 0.5656802467582875
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gpt-4o",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.4734523809523789,
+    "ci_low": 0.4272959437179012,
+    "ci_high": 0.5196088181868567
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.4274074021020439,
+    "ci_low": 0.3854499468672593,
+    "ci_high": 0.4693648573368285
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.4759292916666673,
+    "ci_low": 0.4366816860893002,
+    "ci_high": 0.5151768972440345
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.4815909090909109,
+    "ci_low": 0.4405981220062198,
+    "ci_high": 0.522583696175602
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.422383263157894,
+    "ci_low": 0.3820352360788133,
+    "ci_high": 0.4627312902369747
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.4031904761904752,
+    "ci_low": 0.3648118471582165,
+    "ci_high": 0.4415691052227339
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.4089333333333317,
+    "ci_low": 0.3635231270691666,
+    "ci_high": 0.4543435395974968
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.4149483112180393,
+    "ci_low": 0.3609582380452655,
+    "ci_high": 0.4689383843908131
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_o3-mini",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.3280528505835691,
+    "ci_low": 0.2614060573415093,
+    "ci_high": 0.3946996438256288
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.329182086662153,
+    "ci_low": 0.2704051397960096,
+    "ci_high": 0.3879590335282963
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gpt-4o-mini",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.362030178571428,
+    "ci_low": 0.3095553999081732,
+    "ci_high": 0.4145049572346828
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_mistral-large-2411",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.4056321904296877,
+    "ci_low": 0.3565465296285138,
+    "ci_high": 0.4547178512308615
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.4131228124999985,
+    "ci_low": 0.3564435735461819,
+    "ci_high": 0.4698020514538151
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gpt-4o",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.4133965231507677,
+    "ci_low": 0.3607357305998693,
+    "ci_high": 0.4660573157016661
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.3952751959722213,
+    "ci_low": 0.3319848000559424,
+    "ci_high": 0.4585655918885002
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.4684025999999989,
+    "ci_low": 0.4146989182363405,
+    "ci_high": 0.5221062817636575
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.43545,
+    "ci_low": 0.3774115803586836,
+    "ci_high": 0.4934884196413163
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.4727112931034492,
+    "ci_low": 0.4245130090127908,
+    "ci_high": 0.5209095771941077
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.4088238636363635,
+    "ci_low": 0.3534864017694319,
+    "ci_high": 0.4641613255032951
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.37626727212934,
+    "ci_low": 0.3352522648907471,
+    "ci_high": 0.4172822793679329
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.3039192195564873,
+    "ci_low": 0.2663767551734403,
+    "ci_high": 0.3414616839395343
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.4787434210526293,
+    "ci_low": 0.4263536091753304,
+    "ci_high": 0.5311332329299282
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.4832537199999998,
+    "ci_low": 0.4409506465127053,
+    "ci_high": 0.5255567934872943
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_grok-2-1212",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.4546008229166656,
+    "ci_low": 0.4114254293352777,
+    "ci_high": 0.4977762164980534
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.4904999999999991,
+    "ci_low": 0.4432037260126193,
+    "ci_high": 0.537796273987379
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.3915080000000012,
+    "ci_low": 0.356403874389964,
+    "ci_high": 0.4266121256100383
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gpt-4o-mini",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.3930004130434787,
+    "ci_low": 0.352908676366226,
+    "ci_high": 0.4330921497207315
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_mistral-large-2411",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.3892706643634275,
+    "ci_low": 0.3522676669646391,
+    "ci_high": 0.4262736617622158
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.4832445652173902,
+    "ci_low": 0.4465725153853579,
+    "ci_high": 0.5199166150494225
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gpt-4o",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.4743594999999995,
+    "ci_low": 0.4384595797967975,
+    "ci_high": 0.5102594202032014
+   },
+   {
+    "family": "bargaining",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.4884174278846144,
+    "ci_low": 0.4539259002212824,
+    "ci_high": 0.5229089555479464
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.9187755644736814,
+    "ci_low": 0.8434459907053045,
+    "ci_high": 0.9941051382420584
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.9326227712715192,
+    "ci_low": 0.8655977917867586,
+    "ci_high": 0.9996477507562798
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.845494564209917,
+    "ci_low": 0.7754892562948018,
+    "ci_high": 0.915499872125032
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9252882499999948,
+    "ci_low": 0.8747675368165533,
+    "ci_high": 0.9758089631834366
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9477786956521734,
+    "ci_low": 0.8961713912089803,
+    "ci_high": 0.9993860000953666
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.8687109371575485,
+    "ci_low": 0.819210949661176,
+    "ci_high": 0.9182109246539212
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_o3-mini",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.898977393583328,
+    "ci_low": 0.8302600559259228,
+    "ci_high": 0.9676947312407332
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.8231038039669788,
+    "ci_low": 0.7623128918511924,
+    "ci_high": 0.8838947160827652
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_gpt-4o-mini",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.964652346428817,
+    "ci_low": 0.9122896827711844,
+    "ci_high": 1.0170150100864497
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_mistral-large-2411",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.8866255237425039,
+    "ci_low": 0.8399207921714475,
+    "ci_high": 0.9333302553135604
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.8845082236842129,
+    "ci_low": 0.8506250501616482,
+    "ci_high": 0.9183913972067776
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gpt-4o",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.927865624999999,
+    "ci_low": 0.8852302332938469,
+    "ci_high": 0.9705010167061512
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_mistral-large-2411",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.903224399553566,
+    "ci_low": 0.8533127226598746,
+    "ci_high": 0.9531360764472572
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.8958288960503412,
+    "ci_low": 0.8335780978718229,
+    "ci_high": 0.9580796942288596
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gpt-4o",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.945843152173906,
+    "ci_low": 0.8907728754400391,
+    "ci_high": 1.0009134289077726
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.9601057692307676,
+    "ci_low": 0.9181830228677116,
+    "ci_high": 1.002028515593823
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.9052461538461524,
+    "ci_low": 0.8633234074830964,
+    "ci_high": 0.9471689002092084
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.8411051136799984,
+    "ci_low": 0.785911253376429,
+    "ci_high": 0.8962989739835678
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.7943954670833346,
+    "ci_low": 0.7369487295482865,
+    "ci_high": 0.8518422046183828
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.8951647875395665,
+    "ci_low": 0.8402725291474752,
+    "ci_high": 0.950057045931658
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.7773674478963999,
+    "ci_low": 0.7224751895043086,
+    "ci_high": 0.8322597062884912
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_grok-2-1212",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.8161276562499953,
+    "ci_low": 0.7746393728782486,
+    "ci_high": 0.857615939621742
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_o3-mini",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9482588525185156,
+    "ci_low": 0.9108085850235724,
+    "ci_high": 0.9857091200134592
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.8262751249999981,
+    "ci_low": 0.7873556653650259,
+    "ci_high": 0.8651945846349703
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gpt-4o-mini",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.7120335035702489,
+    "ci_low": 0.6346397236743376,
+    "ci_high": 0.7894272834661601
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_mistral-large-2411",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.8178568177017389,
+    "ci_low": 0.7534613003594277,
+    "ci_high": 0.8822523350440501
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.8597679818161511,
+    "ci_low": 0.7913014400037028,
+    "ci_high": 0.9282345236285994
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gpt-4o",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.879689307065215,
+    "ci_low": 0.8280820026220218,
+    "ci_high": 0.931296611508408
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.8905685710227255,
+    "ci_low": 0.8159445320896567,
+    "ci_high": 0.9651926099557944
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.8728767275306907,
+    "ci_low": 0.8188678133398587,
+    "ci_high": 0.9268856417215228
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.9120435011012344,
+    "ci_low": 0.8484236086951515,
+    "ci_high": 0.9756633935073172
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.6655700035398429,
+    "ci_low": 0.5948604464418127,
+    "ci_high": 0.736279560637873
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.9368966718749968,
+    "ci_low": 0.8640109287110416,
+    "ci_high": 1.0097824150389525
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.974268098684212,
+    "ci_low": 0.92635005515236,
+    "ci_high": 1.022186142216064
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_grok-2-1212",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.8709864939431835,
+    "ci_low": 0.8264552796494238,
+    "ci_high": 0.9155177082369432
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_o3-mini",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.8971618804619579,
+    "ci_low": 0.8536094937043747,
+    "ci_high": 0.9407142672195412
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.8525560129629572,
+    "ci_low": 0.8017284490901752,
+    "ci_high": 0.9033835768357392
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_grok-2-1212",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.7606108065476119,
+    "ci_low": 0.7029777663670552,
+    "ci_high": 0.8182438467281686
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.9578174936383884,
+    "ci_low": 0.9079058167446972,
+    "ci_high": 1.00772917053208
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.8452642045454544,
+    "ci_low": 0.7996893743566973,
+    "ci_high": 0.8908390347342114
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_gpt-4o-mini",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.9781717391304352,
+    "ci_low": 0.9335986758921826,
+    "ci_high": 1.0227448023686878
+   },
+   {
+    "family": "bargaining",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_mistral-large-2411",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.8153536184210517,
+    "ci_low": 0.7663125866060345,
+    "ci_high": 0.8643946502360689
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.9930000000000032,
+    "ci_low": 0.9514168853586012,
+    "ci_high": 1.0345831146414053
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_gpt-4o",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.9948444444444424,
+    "ci_low": 0.9510119929542002,
+    "ci_high": 1.0386768959346844
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.9888235294117708,
+    "ci_low": 0.9437203089283456,
+    "ci_high": 1.0339267498951958
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9874359999999972,
+    "ci_low": 0.949659197912908,
+    "ci_high": 1.0252128020870868
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9889473684210504,
+    "ci_low": 0.9456144045505874,
+    "ci_high": 1.0322803322915135
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9913699999999996,
+    "ci_low": 0.9491342512803556,
+    "ci_high": 1.0336057487196435
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.6928821224362323,
+    "ci_low": 0.6241126241476986,
+    "ci_high": 0.7616516207247659
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.673440007096305,
+    "ci_low": 0.6020745260374017,
+    "ci_high": 0.7448054881552083
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.6604213194183375,
+    "ci_low": 0.5861417716904058,
+    "ci_high": 0.7347008671462691
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_o3-mini",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.6242018426800551,
+    "ci_low": 0.5466127933795701,
+    "ci_high": 0.70179089198054
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9411571428571424,
+    "ci_low": 0.8734318682820696,
+    "ci_high": 1.0088824174322153
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gpt-4o-mini",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9799368421052648,
+    "ci_low": 0.908736247362905,
+    "ci_high": 1.0511374368476245
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_mistral-large-2411",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.9283849999999996,
+    "ci_low": 0.859718902794258,
+    "ci_high": 0.9970510972057413
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.9923458333333316,
+    "ci_low": 0.9296625493742864,
+    "ci_high": 1.055029117292377
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gpt-4o",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.9880241379310342,
+    "ci_low": 0.9310000480096906,
+    "ci_high": 1.0450482278523778
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9871451612903248,
+    "ci_low": 0.9343887803868424,
+    "ci_high": 1.039901542193807
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9837500000000012,
+    "ci_low": 0.9237915742969108,
+    "ci_high": 1.0437084257030915
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.8877272727272727,
+    "ci_low": 0.8251027395201457,
+    "ci_high": 0.9503518059343996
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.9281384615384588,
+    "ci_low": 0.8780651591837362,
+    "ci_high": 0.9782117638931814
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.9817954545454516,
+    "ci_low": 0.9273600358340036,
+    "ci_high": 1.0362308732568992
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=False_MR=12.0",
+    "effect": 0.8963047619047574,
+    "ci_low": 0.8405883345475825,
+    "ci_high": 0.9520211892619322
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.968504347826086,
+    "ci_low": 0.9144679453482838,
+    "ci_high": 1.0225407503038884
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.909166666666664,
+    "ci_low": 0.8343566549519377,
+    "ci_high": 0.9839766783813904
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.9751657142857144,
+    "ci_low": 0.9313614567519052,
+    "ci_high": 1.0189699718195238
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_grok-2-1212",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.8283111111111136,
+    "ci_low": 0.7844786596208715,
+    "ci_high": 0.8721435626013556
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_o3-mini",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.87906684440814,
+    "ci_low": 0.8445339473160569,
+    "ci_high": 0.913599741500223
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=True_MR=12.0",
+    "effect": 0.9944521739130444,
+    "ci_low": 0.9556757195683288,
+    "ci_high": 1.03322862825776
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gpt-4o-mini",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9854285714285692,
+    "ci_low": 0.9442107011720328,
+    "ci_high": 1.0266464416851058
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_mistral-large-2411",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.997625925925924,
+    "ci_low": 0.9612751811690836,
+    "ci_high": 1.0339766706827649
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9801399999999963,
+    "ci_low": 0.9423631979129068,
+    "ci_high": 1.017916802087086
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gpt-4o",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.9758679999999994,
+    "ci_low": 0.9030892038967426,
+    "ci_high": 1.0486467961032562
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.9653090909090924,
+    "ci_low": 0.855590927559873,
+    "ci_high": 1.075027254258312
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=False_MR=12.0",
+    "effect": 0.9772000000000004,
+    "ci_low": 0.883242978245021,
+    "ci_high": 1.0711570217549802
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9739157894736844,
+    "ci_low": 0.9027151947313246,
+    "ci_high": 1.045116384216044
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.948766666666666,
+    "ci_low": 0.8854154731953873,
+    "ci_high": 1.0121178601379448
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9760159999999996,
+    "ci_low": 0.9139447605596116,
+    "ci_high": 1.0380872394403875
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.9739294117647032,
+    "ci_low": 0.8994505722473939,
+    "ci_high": 1.0484082512820123
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_grok-2-1212",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.9914958333333334,
+    "ci_low": 0.9288125493742884,
+    "ci_high": 1.0541791172923785
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_o3-mini",
+    "market": "CI=True_MA=True_MR=12.0",
+    "effect": 0.8792784000000003,
+    "ci_low": 0.8178615755593417,
+    "ci_high": 0.940695224440659
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9897950000000012,
+    "ci_low": 0.9241138354598408,
+    "ci_high": 1.0554761645401616
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_gpt-4o-mini",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 1.0000000000000004,
+    "ci_low": 0.9343188354598402,
+    "ci_high": 1.0656811645401607
+   },
+   {
+    "family": "bargaining",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_mistral-large-2411",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.993488,
+    "ci_low": 0.9347409804987412,
+    "ci_high": 1.052235019501259
+   }
+  ]
+ },
+ "negotiation": {
+  "n_rows": 24324,
+  "sample": [
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.1088235294117644,
+    "ci_low": 0.054813131773635,
+    "ci_high": 0.1628339270498938
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.0499999999999997,
+    "ci_low": -0.0116458706977059,
+    "ci_high": 0.1116458706977055
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.1214285714285713,
+    "ci_low": 0.0545590321474945,
+    "ci_high": 0.1882981107096482
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_grok-2-1212",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0831250000000005,
+    "ci_low": 0.0231441046833367,
+    "ci_high": 0.1431058953166642
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.0676470588235296,
+    "ci_low": 0.0012531207318692,
+    "ci_high": 0.13404099691519
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0526315789473682,
+    "ci_low": -0.00213398466425,
+    "ci_high": 0.1073971425589866
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.0399999999999998,
+    "ci_low": -0.0179486040823133,
+    "ci_high": 0.0979486040823129
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.0485294117647058,
+    "ci_low": -0.0022625858137962,
+    "ci_high": 0.0993214093432078
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 1.2281842209915794e-15,
+    "ci_low": -0.0742163681577213,
+    "ci_high": 0.0742163681577238
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_mistral-large-2411",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.036363636363636,
+    "ci_low": -0.0299642471901967,
+    "ci_high": 0.1026915199174688
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.0563636363636364,
+    "ci_low": -0.0077373055707514,
+    "ci_high": 0.1204645782980243
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.0368421052631571,
+    "ci_low": -0.0107584548751393,
+    "ci_high": 0.0844426654014536
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_gpt-4o",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.0433333333333331,
+    "ci_low": -0.0212687791044133,
+    "ci_high": 0.1079354457710796
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.0306666666666664,
+    "ci_low": -0.0268317923860134,
+    "ci_high": 0.0881651257193463
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_mistral-large-2411",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.0321428571428572,
+    "ci_low": -0.0249301290170585,
+    "ci_high": 0.0892158433027729
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0824999999999998,
+    "ci_low": 0.0228206106577266,
+    "ci_high": 0.1421793893422731
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0176470588235293,
+    "ci_low": -0.0405429569199342,
+    "ci_high": 0.0758370745669929
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gpt-4o",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.0866666666666668,
+    "ci_low": 0.0159849220832046,
+    "ci_high": 0.157348411250129
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.0111111111111119,
+    "ci_low": -0.0610142343118561,
+    "ci_high": 0.0832364565340801
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.0133333333333333,
+    "ci_low": -0.0446152707489797,
+    "ci_high": 0.0712819374156464
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.0730952380952381,
+    "ci_low": 0.0273958792864365,
+    "ci_high": 0.1187945969040396
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.0337499999999992,
+    "ci_low": -0.0181215078246919,
+    "ci_high": 0.0856215078246905
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gpt-4o-mini",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.0437499999999993,
+    "ci_low": -0.0112461757216126,
+    "ci_high": 0.0987461757216113
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.0387499999999999,
+    "ci_low": -0.0143996932761807,
+    "ci_high": 0.0918996932761805
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_o3-mini",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.0291666666666665,
+    "ci_low": -0.0324792040310391,
+    "ci_high": 0.0908125373643722
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.0074999999999999,
+    "ci_low": -0.0593695392810768,
+    "ci_high": 0.0743695392810766
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.0541666666666667,
+    "ci_low": -0.0101185648549734,
+    "ci_high": 0.118451898188307
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gpt-4o-mini",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.0294117647058823,
+    "ci_low": -0.036982173385778,
+    "ci_high": 0.0958057027975427
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0301136363636362,
+    "ci_low": -0.0207811178741159,
+    "ci_high": 0.0810083906013883
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0250000000000001,
+    "ci_low": -0.0415428288038365,
+    "ci_high": 0.0915428288038367
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.0296428571428569,
+    "ci_low": -0.0263271981841068,
+    "ci_high": 0.0856129124698207
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.0491583333333342,
+    "ci_low": -0.0391768135707928,
+    "ci_high": 0.1374934802374613
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_grok-2-1212",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.063888888888889,
+    "ci_low": 0.0109892928358576,
+    "ci_high": 0.1167884849419203
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.0466666666666667,
+    "ci_low": -0.0082261005105813,
+    "ci_high": 0.1015594338439147
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.0962499999999991,
+    "ci_low": 0.0363539419882847,
+    "ci_high": 0.1561460580117136
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": -5.967448757360216e-16,
+    "ci_low": -0.0587933848951684,
+    "ci_high": 0.0587933848951672
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gpt-4o",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.0374999999999999,
+    "ci_low": -0.0181726435859045,
+    "ci_high": 0.0931726435859044
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.0324999999999998,
+    "ci_low": -0.0152506861149342,
+    "ci_high": 0.0802506861149338
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_mistral-large-2411",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.0320588235294116,
+    "ci_low": -0.0286242945664848,
+    "ci_high": 0.092741941625308
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0809523809523806,
+    "ci_low": 0.0285967632305076,
+    "ci_high": 0.1333079986742537
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.0249999166666667,
+    "ci_low": -0.0540246761617828,
+    "ci_high": 0.1040245094951162
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gpt-4o",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0307692307692308,
+    "ci_low": -0.0354391071882907,
+    "ci_high": 0.0969775687267524
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.0416666666666664,
+    "ci_low": -0.0162819374156466,
+    "ci_high": 0.0996152707489795
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_mistral-large-2411",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.0419999999999999,
+    "ci_low": -0.0120722105498733,
+    "ci_high": 0.0960722105498732
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.0726597333333343,
+    "ci_low": -0.006349623978689,
+    "ci_high": 0.1516690906453577
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.0966666666666661,
+    "ci_low": 0.0398668606200261,
+    "ci_high": 0.1534664727133061
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gpt-4o",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.0865384615384617,
+    "ci_low": 0.0275741709592453,
+    "ci_high": 0.1455027521176781
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.0503846153846143,
+    "ci_low": -0.0071616557530951,
+    "ci_high": 0.1079308865223239
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_o3-mini",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": -1.52655665885959e-16,
+    "ci_low": -0.0884600856115971,
+    "ci_high": 0.0884600856115968
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.0470588235294118,
+    "ci_low": -0.0069515741087174,
+    "ci_high": 0.1010692211675412
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.0846153846153846,
+    "ci_low": 0.0253879478282002,
+    "ci_high": 0.1438428214025691
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gpt-4o-mini",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0863636363636364,
+    "ci_low": 0.0143875846669619,
+    "ci_high": 0.158339688060311
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0275000000000001,
+    "ci_low": -0.0483704981187134,
+    "ci_high": 0.1033704981187136
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_o3-mini",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.0531249374999998,
+    "ci_low": -0.015312367413159,
+    "ci_high": 0.1215622424131587
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 9.228728892196614e-16,
+    "ci_low": -0.0742163681577217,
+    "ci_high": 0.0742163681577236
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.0678571428571431,
+    "ci_low": 0.0188816335613979,
+    "ci_high": 0.1168326521528882
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gpt-4o-mini",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.0372222222222223,
+    "ci_low": -0.0325847014285377,
+    "ci_high": 0.1070291458729825
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.0309090909090902,
+    "ci_low": -0.0316503013689042,
+    "ci_high": 0.0934684831870847
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.063636363636363,
+    "ci_low": -0.0026915199174696,
+    "ci_high": 0.1299642471901957
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.0461538461538458,
+    "ci_low": -0.0156094064891111,
+    "ci_high": 0.1079170987968027
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.0624999999999999,
+    "ci_low": 0.0012878136069185,
+    "ci_high": 0.1237121863930813
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_grok-2-1212",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0413461538461538,
+    "ci_low": -0.0248621841113676,
+    "ci_high": 0.1075544918036754
+   },
+   {
+    "family": "negotiation",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_mistral-large-2411",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0335,
+    "ci_low": -0.0201485437117435,
+    "ci_high": 0.0871485437117435
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.0773684210526313,
+    "ci_low": 0.0211443856811046,
+    "ci_high": 0.133592456424158
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.0166666666666667,
+    "ci_low": -0.0107247877867061,
+    "ci_high": 0.0440581211200396
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_gpt-4o",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.0714285714285713,
+    "ci_low": -0.0242921872226552,
+    "ci_high": 0.1671493300797978
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_grok-2-1212",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.1471428571428571,
+    "ci_low": 0.082023668038588,
+    "ci_high": 0.2122620462471262
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_mistral-large-2411",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.0434615384615367,
+    "ci_low": -0.0286979933525855,
+    "ci_high": 0.115621070275659
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.040625,
+    "ci_low": -0.0099404187453892,
+    "ci_high": 0.0911904187453894
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.0447368421052631,
+    "ci_low": -0.0041639994822332,
+    "ci_high": 0.0936376836927594
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_gpt-4o",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.0749999999999998,
+    "ci_low": 0.0087142865817376,
+    "ci_high": 0.1412857134182619
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.0450000000000004,
+    "ci_low": -0.0279429359815054,
+    "ci_high": 0.1179429359815063
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0875000000000002,
+    "ci_low": 0.0277926281013352,
+    "ci_high": 0.1472073718986652
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.0005316315789473,
+    "ci_low": -0.0235257586323111,
+    "ci_high": 0.0245890217902059
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0230769230769229,
+    "ci_low": -0.0539097225450838,
+    "ci_high": 0.1000635686989298
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_gpt-4o-mini",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": -5.551115123125783e-17,
+    "ci_low": -0.0596923806124945,
+    "ci_high": 0.0596923806124944
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.05,
+    "ci_low": -0.0132780640852816,
+    "ci_high": 0.1132780640852816
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_o3-mini",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.0009136363636362,
+    "ci_low": -0.0217041127568182,
+    "ci_high": 0.0235313854840907
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.0333333333333334,
+    "ci_low": -0.0143402006512027,
+    "ci_high": 0.0810068673178696
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.0555555555555558,
+    "ci_low": -0.0256623427553499,
+    "ci_high": 0.1367734538664616
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gpt-4o-mini",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.0571428571428555,
+    "ci_low": -0.0123918075992884,
+    "ci_high": 0.1266775218849996
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.0999999999999993,
+    "ci_low": 0.019077078195628,
+    "ci_high": 0.1809229218043707
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.0375000000000001,
+    "ci_low": -0.0157884566834968,
+    "ci_high": 0.090788456683497
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.0410526315789473,
+    "ci_low": -0.0158466983806407,
+    "ci_high": 0.0979519615385355
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0200000000000002,
+    "ci_low": -0.0516706666420183,
+    "ci_high": 0.0916706666420187
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_grok-2-1212",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0550000000000002,
+    "ci_low": -0.0173092182684892,
+    "ci_high": 0.1273092182684896
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.005,
+    "ci_low": -0.02121593319405,
+    "ci_high": 0.0312159331940501
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.0607142857142854,
+    "ci_low": 0.0323614367064343,
+    "ci_high": 0.0890671347221365
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.0941176470588234,
+    "ci_low": 0.0326946941458378,
+    "ci_high": 0.1555405999718091
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.1541176470588234,
+    "ci_low": 0.0946782558242541,
+    "ci_high": 0.2135570382933926
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.1923076923076908,
+    "ci_low": 0.1201481604935684,
+    "ci_high": 0.2644672241218131
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_mistral-large-2411",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.0294117647058823,
+    "ci_low": -0.0196438970566652,
+    "ci_high": 0.07846742646843
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.0626923076923076,
+    "ci_low": -0.0048850685027825,
+    "ci_high": 0.1302696838873978
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.1233333333333331,
+    "ci_low": 0.059295250264401,
+    "ci_high": 0.1873714164022653
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gpt-4o",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.033333333333333,
+    "ci_low": -0.0420018070079593,
+    "ci_high": 0.1086684736746255
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 1.457167719820518e-16,
+    "ci_low": -0.0591182347577506,
+    "ci_high": 0.0591182347577508
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_mistral-large-2411",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.0567777777777777,
+    "ci_low": 0.0218232001857109,
+    "ci_high": 0.0917323553698445
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0527777777777777,
+    "ci_low": -0.0126482902743332,
+    "ci_high": 0.1182038458298886
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0669230769230769,
+    "ci_low": -0.0107494831752667,
+    "ci_high": 0.1445956370214207
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gpt-4o",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.0563157894736838,
+    "ci_low": 9.175410215707391e-05,
+    "ci_high": 0.1125398248452105
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.0066667333333332,
+    "ci_low": -0.0207247211200396,
+    "ci_high": 0.0340581877867061
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.0630434782608697,
+    "ci_low": 0.0102365100705765,
+    "ci_high": 0.1158504464511629
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.0575000000000001,
+    "ci_low": -0.0076191891042688,
+    "ci_high": 0.1226191891042692
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.0906249999999983,
+    "ci_low": 0.0255812770076751,
+    "ci_high": 0.1556687229923216
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gpt-4o-mini",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 1.3530843112619095e-16,
+    "ci_low": -0.0609841895802397,
+    "ci_high": 0.06098418958024
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.0566666666666668,
+    "ci_low": 0.0016305852585924,
+    "ci_high": 0.1117027480747412
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_o3-mini",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.0323076923076922,
+    "ci_low": -0.0364802433782603,
+    "ci_high": 0.1010956279936448
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": -0.1611764705882358,
+    "ci_low": -0.2319415128692749,
+    "ci_high": -0.0904114283071967
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.0176470588235294,
+    "ci_low": -0.0502756246001297,
+    "ci_high": 0.0855697422471886
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gpt-4o-mini",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.0006666673333334,
+    "ci_low": -0.0264090320442245,
+    "ci_high": 0.0277423667108913
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": -0.0861111111111112,
+    "ci_low": -0.1515371791632222,
+    "ci_high": -0.0206850430590002
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.0214285714285715,
+    "ci_low": -0.0462562261140315,
+    "ci_high": 0.0891133689711745
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.0260416666666665,
+    "ci_low": -0.0447053597229723,
+    "ci_high": 0.0967886930563054
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.002142857142857,
+    "ci_low": -0.026209991864994,
+    "ci_high": 0.0304957061507081
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_grok-2-1212",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.0368421052631579,
+    "ci_low": -0.009559905336625,
+    "ci_high": 0.0832441158629409
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.1079545454545457,
+    "ci_low": 0.0560074031521989,
+    "ci_high": 0.1599016877568925
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.1317647058823516,
+    "ci_low": 0.0686630258398187,
+    "ci_high": 0.1948663859248846
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.0750000000000002,
+    "ci_low": -0.005922921804371,
+    "ci_high": 0.1559229218043714
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gpt-4o",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.072222222222222,
+    "ci_low": 0.0219813834490672,
+    "ci_high": 0.1224630609953769
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.0624999999999998,
+    "ci_low": 0.0004953926877444,
+    "ci_high": 0.1245046073122551
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_mistral-large-2411",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.0547619047619047,
+    "ci_low": -0.0058108640898262,
+    "ci_high": 0.1153346736136357
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.0411764705882352,
+    "ci_low": -0.0202464823247503,
+    "ci_high": 0.1025994235012209
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": -7.355227538141662e-16,
+    "ci_low": -0.2450748883825422,
+    "ci_high": 0.2450748883825408
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gpt-4o",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.1051851851851826,
+    "ci_low": 0.0551145038802312,
+    "ci_high": 0.1552558664901341
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.0500000000000001,
+    "ci_low": -0.0083879162486733,
+    "ci_high": 0.1083879162486735
+   },
+   {
+    "family": "negotiation",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_mistral-large-2411",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.1,
+    "ci_low": -0.0722891799480828,
+    "ci_high": 0.2722891799480829
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 1.0000000000000018,
+    "ci_low": 0.907246787367199,
+    "ci_high": 1.0927532126328046
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.941176470588235,
+    "ci_low": 0.7823800652416834,
+    "ci_high": 1.0999728759347864
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_gpt-4o-mini",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.666666666666668,
+    "ci_low": 0.4783538450628514,
+    "ci_high": 0.8549794882704844
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.6000000000000036,
+    "ci_low": 0.3875636276912534,
+    "ci_high": 0.8124363723087539
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_o3-mini",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9374999999999956,
+    "ci_low": 0.7560762530697719,
+    "ci_high": 1.1189237469302191
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.8750000000000024,
+    "ci_low": 0.7455209760708438,
+    "ci_high": 1.004479023929161
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.8571428571428571,
+    "ci_low": 0.7665241460201954,
+    "ci_high": 0.9477615682655188
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_gpt-4o-mini",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.6923076923076862,
+    "ci_low": 0.5075992800727017,
+    "ci_high": 0.8770161045426706
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.8125000000000004,
+    "ci_low": 0.6365495445635112,
+    "ci_high": 0.9884504554364896
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_o3-mini",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9166666666666676,
+    "ci_low": 0.8061399123060901,
+    "ci_high": 1.027193421027245
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.9999999999999972,
+    "ci_low": 0.9100036467246618,
+    "ci_high": 1.0899963532753327
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.7692307692307642,
+    "ci_low": 0.5399494925592347,
+    "ci_high": 0.9985120459022936
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_grok-2-1212",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.7894736842105257,
+    "ci_low": 0.6061834429842365,
+    "ci_high": 0.9727639254368148
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9375000000000004,
+    "ci_low": 0.8418921767998955,
+    "ci_high": 1.0331078232001054
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.8461538461538457,
+    "ci_low": 0.664563209330085,
+    "ci_high": 1.0277444829776066
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 1.0000000000000029,
+    "ci_low": 0.8362205500673686,
+    "ci_high": 1.1637794499326368
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 1.0000000000000042,
+    "ci_low": 0.8416592768747313,
+    "ci_high": 1.1583407231252771
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_grok-2-1212",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9999999999999978,
+    "ci_low": 0.798728423955775,
+    "ci_high": 1.2012715760442203
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_mistral-large-2411",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.7857142857142868,
+    "ci_low": 0.5976153367742351,
+    "ci_high": 0.9738132346543386
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.9999999999999998,
+    "ci_low": 0.8890151983004037,
+    "ci_high": 1.1109848016995958
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.6666666666666609,
+    "ci_low": 0.4446747828924018,
+    "ci_high": 0.8886585504409199
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gpt-4o",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.7499999999999911,
+    "ci_low": 0.5812535494425483,
+    "ci_high": 0.918746450557434
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_grok-2-1212",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9999999999999992,
+    "ci_low": 0.9121622425168204,
+    "ci_high": 1.0878377574831783
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_mistral-large-2411",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.9999999999999954,
+    "ci_low": 0.883815207515071,
+    "ci_high": 1.11618479248492
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.7692307692307707,
+    "ci_low": 0.5876401324070101,
+    "ci_high": 0.9508214060545314
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.9444444444444434,
+    "ci_low": 0.756131622840627,
+    "ci_high": 1.13275726604826
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gpt-4o",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9999999999999992,
+    "ci_low": 0.904392176799894,
+    "ci_high": 1.0956078232001043
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9166666666666656,
+    "ci_low": 0.7071765684115553,
+    "ci_high": 1.126156764921776
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.8666666666666663,
+    "ci_low": 0.7028872167340325,
+    "ci_high": 1.0304461165993
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.9499999999999996,
+    "ci_low": 0.7997848005698125,
+    "ci_high": 1.100215199430187
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.9374999999999928,
+    "ci_low": 0.7710060871692982,
+    "ci_high": 1.103993912830687
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gpt-4o-mini",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.5999999999999996,
+    "ci_low": 0.418279151023164,
+    "ci_high": 0.7817208489768352
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 1.0000000000000002,
+    "ci_low": 0.8927784950313354,
+    "ci_high": 1.107221504968665
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_o3-mini",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.999999999999998,
+    "ci_low": 0.878648941999149,
+    "ci_high": 1.121351058000847
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.6666666666666593,
+    "ci_low": 0.4862691228894777,
+    "ci_high": 0.8470642104438408
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 1.0000000000000009,
+    "ci_low": 0.893809329269035,
+    "ci_high": 1.1061906707309668
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gpt-4o-mini",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.8749999999999996,
+    "ci_low": 0.7793921767998946,
+    "ci_high": 0.9706078232001044
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.6000000000000028,
+    "ci_low": 0.3929548184654481,
+    "ci_high": 0.8070451815345574
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.7500000000000009,
+    "ci_low": 0.5193648375234472,
+    "ci_high": 0.9806351624765546
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.6666666666666681,
+    "ci_low": 0.4932130950118842,
+    "ci_high": 0.8401202383214519
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.6999999999999988,
+    "ci_low": 0.4705150952234035,
+    "ci_high": 0.929484904776594
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_grok-2-1212",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.9411764705882372,
+    "ci_low": 0.7873324656956683,
+    "ci_high": 1.0950204754808064
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.866666666666669,
+    "ci_low": 0.7594451616980042,
+    "ci_high": 0.9738881716353338
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.857142857142851,
+    "ci_low": 0.6791533774868898,
+    "ci_high": 1.0351323367988123
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 1.0000000000000009,
+    "ci_low": 0.796829914379412,
+    "ci_high": 1.2031700856205894
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9230769230769212,
+    "ci_low": 0.8168862523459551,
+    "ci_high": 1.0292675938078872
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.9545454545454504,
+    "ci_low": 0.8687372985288879,
+    "ci_high": 1.0403536105620126
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_mistral-large-2411",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.8499999999999923,
+    "ci_low": 0.6651475250615102,
+    "ci_high": 1.0348524749384744
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.8333333333333344,
+    "ci_low": 0.6702496459661023,
+    "ci_high": 0.9964170207005664
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.8749999999999988,
+    "ci_low": 0.7397901197614414,
+    "ci_high": 1.0102098802385562
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gpt-4o",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.8571428571428579,
+    "ci_low": 0.682157741047891,
+    "ci_high": 1.0321279732378248
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.9999999999999996,
+    "ci_low": 0.8087468067281337,
+    "ci_high": 1.1912531932718655
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_mistral-large-2411",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.8333333333333345,
+    "ci_low": 0.6749926102080613,
+    "ci_high": 0.9916740564586076
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9999999999999988,
+    "ci_low": 0.8126263598753838,
+    "ci_high": 1.1873736401246135
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.9166666666666656,
+    "ci_low": 0.7134965810460774,
+    "ci_high": 1.119836752287254
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gpt-4o",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.9444444444444456,
+    "ci_low": 0.846565049576129,
+    "ci_high": 1.042323839312762
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.7142857142857075,
+    "ci_low": 0.56895791270551,
+    "ci_high": 0.8596135158659051
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_o3-mini",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.6315789473684131,
+    "ci_low": 0.4419243097521669,
+    "ci_high": 0.8212335849846594
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.8571428571428574,
+    "ci_low": 0.6436161880077557,
+    "ci_high": 1.0706695262779593
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 1.0000000000000002,
+    "ci_low": 0.912264244307124,
+    "ci_high": 1.0877357556928764
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_gpt-4o-mini",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.8461538461538463,
+    "ci_low": 0.6448822701096235,
+    "ci_high": 1.047425422198069
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 1.0000000000000004,
+    "ci_low": 0.8461559951074312,
+    "ci_high": 1.1538440048925698
+   },
+   {
+    "family": "negotiation",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_o3-mini",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 1.0000000000000009,
+    "ci_low": 0.8416592768747274,
+    "ci_high": 1.1583407231252738
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.9929999999999952,
+    "ci_low": 0.962235072404846,
+    "ci_high": 1.023764927595144
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.972222222222227,
+    "ci_low": 0.9433230017942016,
+    "ci_high": 1.0011214426502524
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_gpt-4o-mini",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.9655058823529384,
+    "ci_low": 0.9484259789927528,
+    "ci_high": 0.982585785713124
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.9975042666666676,
+    "ci_low": 0.9787853268139958,
+    "ci_high": 1.0162232065193395
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.9674999999999974,
+    "ci_low": 0.9465375050684488,
+    "ci_high": 0.988462494931546
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9964705882352904,
+    "ci_low": 0.9811386221366164,
+    "ci_high": 1.0118025543339642
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9445454545454554,
+    "ci_low": 0.9236259505646588,
+    "ci_high": 0.9654649585262518
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_grok-2-1212",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.9968749999999996,
+    "ci_low": 0.9471085880273398,
+    "ci_high": 1.0466414119726593
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_mistral-large-2411",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.9995000000000034,
+    "ci_low": 0.9796583336806532,
+    "ci_high": 1.0193416663193535
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.983542857142864,
+    "ci_low": 0.9547273213757672,
+    "ci_high": 1.0123583929099609
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9869230769230616,
+    "ci_low": 0.9326803577041228,
+    "ci_high": 1.0411657961420009
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_gpt-4o",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.9895000000000012,
+    "ci_low": 0.9530171484077936,
+    "ci_high": 1.0259828515922087
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_grok-2-1212",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.9963636363636356,
+    "ci_low": 0.9751305303957334,
+    "ci_high": 1.0175967423315375
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_mistral-large-2411",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.9999999999999976,
+    "ci_low": 0.9656037652871914,
+    "ci_high": 1.0343962347128035
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.9849999999999972,
+    "ci_low": 0.9349450819195246,
+    "ci_high": 1.0350549180804698
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.997678571428572,
+    "ci_low": 0.9807835676538608,
+    "ci_high": 1.014573575203283
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gpt-4o",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.9974399999999998,
+    "ci_low": 0.981228922555673,
+    "ci_high": 1.0136510774443266
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.9995238095238111,
+    "ci_low": 0.9812262438516304,
+    "ci_high": 1.017821375195992
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 1.0000000000000018,
+    "ci_low": 0.9778163426615344,
+    "ci_high": 1.0221836573384693
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9940200000000026,
+    "ci_low": 0.9761056070624264,
+    "ci_high": 1.0119343929375786
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.991353846153848,
+    "ci_low": 0.936142969180528,
+    "ci_high": 1.0465647231271678
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gpt-4o-mini",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 1.000000000000004,
+    "ci_low": 0.9625693840440636,
+    "ci_high": 1.0374306159559443
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 1.0000000000000002,
+    "ci_low": 0.9752648860059998,
+    "ci_high": 1.0247351139940006
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_o3-mini",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9981818181818178,
+    "ci_low": 0.9564851082356098,
+    "ci_high": 1.0398785281280258
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.960999999999997,
+    "ci_low": 0.9222276271757076,
+    "ci_high": 0.9997723728242864
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.976586666666666,
+    "ci_low": 0.9584037210316564,
+    "ci_high": 0.9947696123016756
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gpt-4o-mini",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.9943749999997484,
+    "ci_low": 0.9599787652869424,
+    "ci_high": 1.0287712347125546
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.9994444444444424,
+    "ci_low": 0.97968081468886,
+    "ci_high": 1.019208074200025
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_o3-mini",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9981944444444476,
+    "ci_low": 0.9832944516486531,
+    "ci_high": 1.0130944372402422
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.9874999999999988,
+    "ci_low": 0.9665715890113468,
+    "ci_high": 1.008428410988651
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.954444444444446,
+    "ci_low": 0.9075242212695244,
+    "ci_high": 1.0013646676193673
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_grok-2-1212",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.9979999999999994,
+    "ci_low": 0.9750888172187044,
+    "ci_high": 1.0209111827812944
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9751956521739144,
+    "ci_low": 0.96072847475799,
+    "ci_high": 0.9896628295898388
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.984347826086956,
+    "ci_low": 0.9435676392697622,
+    "ci_high": 1.02512801290415
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.9735937500000008,
+    "ci_low": 0.9328046819133948,
+    "ci_high": 1.0143828180866072
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.9781250000000024,
+    "ci_low": 0.9511705344358008,
+    "ci_high": 1.005079465564204
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_grok-2-1212",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.9969231384612268,
+    "ci_low": 0.9587639421720217,
+    "ci_high": 1.035082334750432
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_mistral-large-2411",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.9824999999999996,
+    "ci_low": 0.9518477478965072,
+    "ci_high": 1.013152252103492
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.998699999999997,
+    "ci_low": 0.9738019762845348,
+    "ci_high": 1.0235980237154592
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.98981875,
+    "ci_low": 0.9716942144229858,
+    "ci_high": 1.007943285577014
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gpt-4o",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.9974999999999992,
+    "ci_low": 0.978750574542024,
+    "ci_high": 1.016249425457974
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_grok-2-1212",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9943666666666648,
+    "ci_low": 0.976117976906244,
+    "ci_high": 1.0126153564270854
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_mistral-large-2411",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.990781250000001,
+    "ci_low": 0.973435713623839,
+    "ci_high": 1.008126786376163
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.9820312500000016,
+    "ci_low": 0.9322648380273418,
+    "ci_high": 1.0317976619726612
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.9624999999999994,
+    "ci_low": 0.940316342661532,
+    "ci_high": 0.9846836573384667
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gpt-4o",
+    "market": "CI=True_MA=True_MR=1.0",
+    "effect": 0.9487399960000036,
+    "ci_low": 0.9146449942818228,
+    "ci_high": 0.9828349977181848
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=True_MR=inf",
+    "effect": 0.9723035714285716,
+    "ci_low": 0.9296256281750088,
+    "ci_high": 1.0149815146821342
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_o3-mini",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.9986979166666676,
+    "ci_low": 0.9515987577870754,
+    "ci_high": 1.0457970755462596
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.9791846153846152,
+    "ci_low": 0.959652998649994,
+    "ci_high": 0.9987162321192362
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.9686823529411738,
+    "ci_low": 0.9353131038013064,
+    "ci_high": 1.0020516020810413
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gpt-4o-mini",
+    "market": "CI=False_MA=False_MR=inf",
+    "effect": 0.9994117647058828,
+    "ci_low": 0.9696747122151156,
+    "ci_high": 1.02914881719665
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.985833333333332,
+    "ci_low": 0.9709333405375375,
+    "ci_high": 1.0007333261291262
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_o3-mini",
+    "market": "CI=True_MA=False_MR=10.0",
+    "effect": 0.9923298958333332,
+    "ci_low": 0.9736109559806612,
+    "ci_high": 1.011048835686005
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.9944444444444428,
+    "ci_low": 0.9746808146888606,
+    "ci_high": 1.0142080742000252
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=False_MR=1.0",
+    "effect": 0.9750000000000012,
+    "ci_low": 0.9469396463910948,
+    "ci_high": 1.0030603536089076
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gpt-4o-mini",
+    "market": "CI=True_MA=False_MR=inf",
+    "effect": 0.9885185185185192,
+    "ci_low": 0.9751659183904984,
+    "ci_high": 1.00187111864654
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=True_MR=10.0",
+    "effect": 0.9367950000000008,
+    "ci_low": 0.8922825679331503,
+    "ci_high": 0.9813074320668516
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=False_MR=10.0",
+    "effect": 0.9872222222222234,
+    "ci_low": 0.9487659200324646,
+    "ci_high": 1.0256785244119822
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=True_MR=10.0",
+    "effect": 0.9900000000000022,
+    "ci_low": 0.9195777543706152,
+    "ci_high": 1.060422245629389
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=False_MR=1.0",
+    "effect": 0.9985000000000006,
+    "ci_low": 0.9677350724048516,
+    "ci_high": 1.0292649275951498
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_grok-2-1212",
+    "market": "CI=False_MA=True_MR=1.0",
+    "effect": 0.9978571428571416,
+    "ci_low": 0.9754472931411872,
+    "ci_high": 1.020266992573096
+   },
+   {
+    "family": "negotiation",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=True_MR=inf",
+    "effect": 0.9906649999999994,
+    "ci_low": 0.9706745619466072,
+    "ci_high": 1.0106554380533914
+   }
+  ]
+ },
+ "persuasion": {
+  "n_rows": 16224,
+  "sample": [
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.4857142857142863,
+    "ci_low": 0.3206361011718411,
+    "ci_high": 0.6507924702567315
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.6199999999999994,
+    "ci_low": 0.4246768579595299,
+    "ci_high": 0.815323142040469
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_grok-2-1212",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.387500000000001,
+    "ci_low": 0.1691220884093329,
+    "ci_high": 0.6058779115906691
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o-mini_bob_o3-mini",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.6041666666666645,
+    "ci_low": 0.4121253468989842,
+    "ci_high": 0.7962079864343448
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.970833333333331,
+    "ci_low": 0.7787920135656505,
+    "ci_high": 1.1628746531010117
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_gpt-4o-mini",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.4916666666666686,
+    "ci_low": 0.2200792277151866,
+    "ci_high": 0.7632541056181507
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_gpt-4o_bob_mistral-large-2411",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.5147058823529373,
+    "ci_low": 0.338699853819695,
+    "ci_high": 0.6907119108861797
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.372727272727272,
+    "ci_low": 0.1539230689782342,
+    "ci_high": 0.5915314764763098
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_gpt-4o",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.5277777777777772,
+    "ci_low": 0.2858806289817663,
+    "ci_high": 0.7696749265737881
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_o3-mini_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.3666666666666653,
+    "ci_low": 0.1366095574573213,
+    "ci_high": 0.5967237758760093
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.2799999999999993,
+    "ci_low": 0.1017985294711173,
+    "ci_high": 0.4582014705288812
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.790909090909091,
+    "ci_low": 0.5828146059269428,
+    "ci_high": 0.9990035758912392
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.4899999999999995,
+    "ci_low": 0.2357583301614961,
+    "ci_high": 0.744241669838503
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.4549999999999986,
+    "ci_low": 0.2752239911970016,
+    "ci_high": 0.6347760088029957
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.5444444444444434,
+    "ci_low": 0.3549438922871263,
+    "ci_high": 0.7339449966017605
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_grok-2-1212",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.3785714285714285,
+    "ci_low": 0.1389084440094931,
+    "ci_high": 0.618234413133364
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_o3-mini",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.5250000000000004,
+    "ci_low": 0.3008158058693864,
+    "ci_high": 0.7491841941306143
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.7555555555555543,
+    "ci_low": 0.5441926703494231,
+    "ci_high": 0.9669184407616856
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gpt-4o-mini",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.1187500000000011,
+    "ci_low": -0.1391387171335824,
+    "ci_high": 0.3766387171335847
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_mistral-large-2411",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.5468749999999997,
+    "ci_low": 0.3645201393233434,
+    "ci_high": 0.729229860676656
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.6799999999999992,
+    "ci_low": 0.4493373191436364,
+    "ci_high": 0.910662680856362
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gpt-4o",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.6458333333333343,
+    "ci_low": 0.446844175877649,
+    "ci_high": 0.8448224907890195
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.5166666666666664,
+    "ci_low": 0.3176775092109811,
+    "ci_high": 0.7156558241223516
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.3041666666666647,
+    "ci_low": 0.1051775092109793,
+    "ci_high": 0.5031558241223502
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gpt-4o",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.4449999999999992,
+    "ci_low": 0.24967685795953,
+    "ci_high": 0.6403231420404685
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.5299999999999994,
+    "ci_low": 0.3346768579595298,
+    "ci_high": 0.7253231420404689
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.4388888888888885,
+    "ci_low": 0.233000219359398,
+    "ci_high": 0.644777558418379
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.6291666666666671,
+    "ci_low": 0.4371253468989868,
+    "ci_high": 0.8212079864343473
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.5083333333333332,
+    "ci_low": 0.2367458943818513,
+    "ci_high": 0.779920772284815
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.3192307692307689,
+    "ci_low": 0.1347234372986225,
+    "ci_high": 0.5037381011629152
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.4611111111111097,
+    "ci_low": 0.2192139623150988,
+    "ci_high": 0.7030082599071206
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_grok-2-1212",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.4050000000000003,
+    "ci_low": 0.1755162150911847,
+    "ci_high": 0.634483784908816
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_o3-mini",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.5541666666666671,
+    "ci_low": 0.3446775907062972,
+    "ci_high": 0.7636557426270371
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.725,
+    "ci_low": 0.4809875870268476,
+    "ci_high": 0.9690124129731524
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gpt-4o-mini",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.5346153846153846,
+    "ci_low": 0.3431962991832366,
+    "ci_high": 0.7260344700475326
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_mistral-large-2411",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.774999999999999,
+    "ci_low": 0.5567486628953111,
+    "ci_high": 0.9932513371046868
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.3727272727272723,
+    "ci_low": 0.2013175738897282,
+    "ci_high": 0.5441369715648164
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gpt-4o",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.5499999999999992,
+    "ci_low": 0.3702239911970019,
+    "ci_high": 0.7297760088029964
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.5944444444444432,
+    "ci_low": 0.4049438922871261,
+    "ci_high": 0.7839449966017603
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.4150000000000005,
+    "ci_low": 0.2144835609771757,
+    "ci_high": 0.6155164390228253
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.5949999999999994,
+    "ci_low": 0.3944835609771747,
+    "ci_high": 0.7955164390228242
+   },
+   {
+    "family": "persuasion",
+    "metric": "alice_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.2749999999999991,
+    "ci_low": 0.0161343903412606,
+    "ci_high": 0.5338656096587375
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.6430000000000013,
+    "ci_low": 0.2238238687650989,
+    "ci_high": 1.0621761312349038
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.4592647058823547,
+    "ci_low": 0.1377712890646931,
+    "ci_high": 0.7807581227000162
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_grok-2-1212",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.989090909090908,
+    "ci_low": 0.5894221496537269,
+    "ci_high": 1.3887596685280892
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o-mini_bob_o3-mini",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.3379545454545452,
+    "ci_low": -0.0516005911847909,
+    "ci_high": 0.7275096820938813
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 1.0125000000000004,
+    "ci_low": 0.5557061119466724,
+    "ci_high": 1.4692938880533284
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_gpt-4o-mini",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.5810714285714307,
+    "ci_low": 0.0927382212948809,
+    "ci_high": 1.0694046358479803
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_gpt-4o_bob_o3-mini",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.8541666666666654,
+    "ci_low": 0.3039219836242146,
+    "ci_high": 1.4044113497091162
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.345,
+    "ci_low": -0.0613826306348738,
+    "ci_high": 0.7513826306348739
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_gpt-4o-mini",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.1805555555555538,
+    "ci_low": -0.2687173468222664,
+    "ci_high": 0.629828457933374
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_o3-mini_bob_mistral-large-2411",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.60225,
+    "ci_low": 0.1597251634494584,
+    "ci_high": 1.0447748365505416
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.6125000000000018,
+    "ci_low": 0.2085319412749712,
+    "ci_high": 1.0164680587250323
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gpt-4o",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.5500000000000028,
+    "ci_low": 0.0835378651021889,
+    "ci_high": 1.016462134897817
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.7666666666666675,
+    "ci_low": 0.2379195675384177,
+    "ci_high": 1.2954137657949172
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.2260714285714287,
+    "ci_low": -0.2634532634979353,
+    "ci_high": 0.7155961206407928
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.4270000000000009,
+    "ci_low": 0.0174342581441614,
+    "ci_high": 0.8365657418558404
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 1.4514285714285735,
+    "ci_low": 0.9708281681204288,
+    "ci_high": 1.9320289747367183
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.2087499999999996,
+    "ci_low": -0.1933491461840806,
+    "ci_high": 0.6108491461840798
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.3355681818181824,
+    "ci_low": 0.0644729927642863,
+    "ci_high": 0.6066633708720783
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_grok-2-1212",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.5040000000000022,
+    "ci_low": 0.0804810228095208,
+    "ci_high": 0.9275189771904836
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_o3-mini",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.5809999999999984,
+    "ci_low": 0.1574810228095176,
+    "ci_high": 1.0045189771904792
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.1837500000000023,
+    "ci_low": -0.2897586113795455,
+    "ci_high": 0.6572586113795501
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gpt-4o-mini",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": -0.1069999999999987,
+    "ci_low": -0.5303708064379997,
+    "ci_high": 0.3163708064380021
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_mistral-large-2411",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.7400000000000018,
+    "ci_low": 0.2666570485578641,
+    "ci_high": 1.2133429514421394
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.2594444444444456,
+    "ci_low": -0.1868275699443411,
+    "ci_high": 0.7057164588332323
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gpt-4o",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.0766666666666644,
+    "ci_low": -0.3651837718266502,
+    "ci_high": 0.5185171051599791
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 3.3306690738754696e-16,
+    "ci_low": -0.5010113044020639,
+    "ci_high": 0.5010113044020645
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.3999999999999993,
+    "ci_low": -0.0191761312349043,
+    "ci_high": 0.8191761312349031
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.5102500000000003,
+    "ci_low": 0.1016811258425323,
+    "ci_high": 0.9188188741574684
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.3959999999999998,
+    "ci_low": -0.0125688741574681,
+    "ci_high": 0.8045688741574677
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.0074999999999997,
+    "ci_low": -0.449293888053328,
+    "ci_high": 0.4642938880533274
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.7083333333333337,
+    "ci_low": 0.1580886502908833,
+    "ci_high": 1.258578016375784
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.57340909090909,
+    "ci_low": 0.167026460274216,
+    "ci_high": 0.979791721543964
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.5888888888888887,
+    "ci_low": 0.1396159865110679,
+    "ci_high": 1.0381617912667094
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.7709375000000002,
+    "ci_low": 0.2761796918705032,
+    "ci_high": 1.265695308129497
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_grok-2-1212",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.5999999999999988,
+    "ci_low": 0.105242191870502,
+    "ci_high": 1.0947578081294955
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_o3-mini",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 1.0390624999999996,
+    "ci_low": 0.544304691870503,
+    "ci_high": 1.533820308129496
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.9349999999999998,
+    "ci_low": 0.2874197020794947,
+    "ci_high": 1.5825802979205048
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gpt-4o-mini",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.8228571428571418,
+    "ci_low": 0.3333324507877775,
+    "ci_high": 1.3123818349265062
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_mistral-large-2411",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.705625,
+    "ci_low": 0.2477165799776063,
+    "ci_high": 1.1635334200223937
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.1732142857142868,
+    "ci_low": -0.307386117593858,
+    "ci_high": 0.6538146890224317
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_gpt-4o",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": -0.0087499999999975,
+    "ci_low": -0.4583105122811105,
+    "ci_high": 0.4408105122811153
+   },
+   {
+    "family": "persuasion",
+    "metric": "bob_self_gain",
+    "value": "alice_xai/grok-2-1212_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.4443333333333343,
+    "ci_low": 0.116020755280075,
+    "ci_high": 0.7726459113865936
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.999999999999999,
+    "ci_low": 0.7559710741682086,
+    "ci_high": 1.2440289258317894
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.6249999999999991,
+    "ci_low": 0.4755634123081575,
+    "ci_high": 0.7744365876918406
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o-mini_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.9166666666666716,
+    "ci_low": 0.7441121584053437,
+    "ci_high": 1.0892211749279996
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.7011904761904786,
+    "ci_low": 0.481311224169324,
+    "ci_high": 0.9210697282116332
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.7777777777777777,
+    "ci_low": 0.5460046955774339,
+    "ci_high": 1.0095508599781216
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_grok-2-1212",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.8055555555555565,
+    "ci_low": 0.5597230783750015,
+    "ci_high": 1.0513880327361116
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_gpt-4o_bob_o3-mini",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.9722222222222232,
+    "ci_low": 0.7208463263899028,
+    "ci_high": 1.2235981180545434
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 1.0000000000000029,
+    "ci_low": 0.6627438454084181,
+    "ci_high": 1.3372561545915875
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_gpt-4o-mini",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.8181818181818165,
+    "ci_low": 0.5908037651412884,
+    "ci_high": 1.0455598712223446
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_o3-mini_bob_mistral-large-2411",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.7841892955529316,
+    "ci_low": 0.5589120616805903,
+    "ci_high": 1.009466529425273
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.6450144830659528,
+    "ci_low": 0.3808535110448883,
+    "ci_high": 0.9091754550870172
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gpt-4o",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.9270833333333338,
+    "ci_low": 0.6629223613122692,
+    "ci_high": 1.1912443053543984
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_mistral-large-2411",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.890657953157953,
+    "ci_low": 0.7086108422353286,
+    "ci_high": 1.0727050640805775
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.5000000000000001,
+    "ci_low": 0.2425465067423852,
+    "ci_high": 0.757453493257615
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gpt-4o",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.8493303571428561,
+    "ci_low": 0.6263690916887162,
+    "ci_high": 1.072291622596996
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.7499999999999976,
+    "ci_low": 0.4967989080907947,
+    "ci_high": 1.0032010919092005
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.10153846153846,
+    "ci_low": -0.2187384010514248,
+    "ci_high": 0.421815324128345
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 1.0,
+    "ci_low": 0.7076285628542294,
+    "ci_high": 1.2923714371457706
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.5046296296296313,
+    "ci_low": 0.2582238271312879,
+    "ci_high": 0.7510354321279746
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.6332824248120316,
+    "ci_low": 0.3719296040065938,
+    "ci_high": 0.8946352456174693
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.7677631578947371,
+    "ci_low": 0.5340020885218252,
+    "ci_high": 1.0015242272676492
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_grok-2-1212",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.4283475783475746,
+    "ci_low": 0.1815991705586992,
+    "ci_high": 0.6750959861364499
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_o3-mini",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.6185620915032697,
+    "ci_low": 0.3844759982134064,
+    "ci_high": 0.852648184793133
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.9622195985832342,
+    "ci_low": 0.7390272659686961,
+    "ci_high": 1.1854119311977724
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gpt-4o-mini",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.8181818181818162,
+    "ci_low": 0.6379545122454959,
+    "ci_high": 0.9984091241181364
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_mistral-large-2411",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.9338084795321624,
+    "ci_low": 0.7447844863842807,
+    "ci_high": 1.1228324726800445
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.7857142857142871,
+    "ci_low": 0.5597874012533106,
+    "ci_high": 1.0116411701752637
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gpt-4o",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.7343014128728437,
+    "ci_low": 0.5484695275006413,
+    "ci_high": 0.920133298245046
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.4629629629629642,
+    "ci_low": 0.2311898807626205,
+    "ci_high": 0.6947360451633079
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.6518518518518522,
+    "ci_low": 0.4200787696515086,
+    "ci_high": 0.8836249340521959
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.3999999999999994,
+    "ci_low": 0.1823020883101392,
+    "ci_high": 0.6176979116898598
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.4285714285714296,
+    "ci_low": 0.1435379545849737,
+    "ci_high": 0.7136049025578854
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.9166666666666656,
+    "ci_low": 0.6500422658118504,
+    "ci_high": 1.183291067521481
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.6140262515262515,
+    "ci_low": 0.3777534953496435,
+    "ci_high": 0.8502990077028594
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_grok-2-1212",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.4526901669758814,
+    "ci_low": 0.2530032418167878,
+    "ci_high": 0.6523770921349751
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_o3-mini",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.6015873015872996,
+    "ci_low": 0.3859007711175558,
+    "ci_high": 0.8172738320570433
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.9686274509803944,
+    "ci_low": 0.7456661855262545,
+    "ci_high": 1.1915887164345345
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_grok-2-1212",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.8333333333333336,
+    "ci_low": 0.5758798400757192,
+    "ci_high": 1.090786826590948
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_o3-mini",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.9598214285714292,
+    "ci_low": 0.7912785541737403,
+    "ci_high": 1.1283643029691182
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.5857142857142854,
+    "ci_low": 0.3592443443198254,
+    "ci_high": 0.8121842271087454
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_gpt-4o-mini",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.4166666666666669,
+    "ci_low": 0.2099288408356359,
+    "ci_high": 0.6234044924976978
+   },
+   {
+    "family": "persuasion",
+    "metric": "efficiency",
+    "value": "alice_xai/grok-2-1212_bob_mistral-large-2411",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.6363636363636382,
+    "ci_low": 0.4204330196553791,
+    "ci_high": 0.8522942530718973
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.983916083916085,
+    "ci_low": 0.7481876277273062,
+    "ci_high": 1.2196445401048637
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_gpt-4o",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 1.0000000000000018,
+    "ci_low": 0.7642715438112229,
+    "ci_high": 1.235728456188781
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_gpt-4o-mini_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.8982371794871815,
+    "ci_low": 0.7027814690902039,
+    "ci_high": 1.0936928898841591
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.8412698412698418,
+    "ci_low": 0.607178678774784,
+    "ci_high": 1.0753610037648995
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.4134153700330212,
+    "ci_low": 0.2106864765108699,
+    "ci_high": 0.6161442635551724
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_gpt-4o_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.2097222222222239,
+    "ci_low": -0.0385689504019218,
+    "ci_high": 0.4580133948463697
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.9666666666666658,
+    "ci_low": 0.77652736371885,
+    "ci_high": 1.1568059696144817
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.8766233766233767,
+    "ci_low": 0.6953326645174,
+    "ci_high": 1.0579140887293534
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_grok-2-1212",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.9374999999999964,
+    "ci_low": 0.7249177967071253,
+    "ci_high": 1.1500822032928677
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_o3-mini_bob_o3-mini",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.7307692307692284,
+    "ci_low": 0.5617082790769996,
+    "ci_high": 0.8998301824614572
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 1.0000000000000024,
+    "ci_low": 0.8234215948946666,
+    "ci_high": 1.1765784051053385
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_gpt-4o-mini",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 1.0000000000000022,
+    "ci_low": 0.8309390483077734,
+    "ci_high": 1.169060951692231
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-5-sonnet-v2@20241022_bob_mistral-large-2411",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.3200757575757567,
+    "ci_low": 0.046135977110595,
+    "ci_high": 0.5940155380409183
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gemini-1.5-flash",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.8522727272727273,
+    "ci_low": 0.5783329468075653,
+    "ci_high": 1.1262125077378893
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_gpt-4o",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.8923076923076942,
+    "ci_low": 0.6472885039631058,
+    "ci_high": 1.1373268806522827
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/claude-3-7-sonnet@20250219_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.6801259346713904,
+    "ci_low": 0.4728243841820497,
+    "ci_high": 0.8874274851607311
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.8327533577533562,
+    "ci_low": 0.6342772338349424,
+    "ci_high": 1.0312294816717702
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.4480330593775961,
+    "ci_low": 0.1881668132354338,
+    "ci_high": 0.7078993055197582
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-flash_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.8333333333333318,
+    "ci_low": 0.5228313658975827,
+    "ci_high": 1.143835300769081
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.3444721944721937,
+    "ci_low": 0.1039584047035347,
+    "ci_high": 0.5849859842408526
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_gemini-2.0-flash-lite",
+    "market": "CI=False_MA=binary_MYOPIC=False",
+    "effect": 0.6000000000000019,
+    "ci_low": 0.4036213129879218,
+    "ci_high": 0.7963786870120819
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-1.5-pro_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.5471781305114629,
+    "ci_low": 0.3256825809301504,
+    "ci_high": 0.7686736800927754
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.8888888888888893,
+    "ci_low": 0.6673933393075769,
+    "ci_high": 1.1103844384702015
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_gemini-2.0-flash",
+    "market": "CI=False_MA=binary_MYOPIC=True",
+    "effect": 0.9999999999999982,
+    "ci_low": 0.778504450418686,
+    "ci_high": 1.2214955495813105
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_grok-2-1212",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.6666666666666687,
+    "ci_low": 0.4060590528040324,
+    "ci_high": 0.927274280529305
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash-lite_bob_o3-mini",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.451923076923077,
+    "ci_low": 0.235084435101987,
+    "ci_high": 0.668761718744167
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gemini-1.5-pro",
+    "market": "CI=False_MA=text_MYOPIC=False",
+    "effect": 0.1000000000000004,
+    "ci_low": -0.1472340906162805,
+    "ci_high": 0.3472340906162813
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_gpt-4o-mini",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.7236868686868672,
+    "ci_low": 0.5016084926065769,
+    "ci_high": 0.9457652447671574
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/gemini-2.0-flash_bob_mistral-large-2411",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.1083180708180717,
+    "ci_low": -0.0672503010532213,
+    "ci_high": 0.2838864426893648
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gemini-1.5-flash",
+    "market": "CI=False_MA=text_MYOPIC=True",
+    "effect": 0.8954545454545461,
+    "ci_low": 0.6837111219815762,
+    "ci_high": 1.107197968927516
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_gpt-4o",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.888888888888888,
+    "ci_low": 0.6884644655449325,
+    "ci_high": 1.0893133122328431
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.1-405b-instruct-maas_bob_meta/llama-3.3-70b-instruct-maas",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.7999999999999987,
+    "ci_low": 0.531102419031031,
+    "ci_high": 1.0688975809689665
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_claude-3-7-sonnet@20250219",
+    "market": "CI=True_MA=binary_MYOPIC=False",
+    "effect": 0.9999999999999988,
+    "ci_low": 0.8264273578452865,
+    "ci_high": 1.1735726421547112
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_gemini-2.0-flash-lite",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 1.0000000000000022,
+    "ci_low": 0.8487872878701498,
+    "ci_high": 1.1512127121298548
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/meta/llama-3.3-70b-instruct-maas_bob_meta/llama-3.1-405b-instruct-maas",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 1.0000000000000018,
+    "ci_low": 0.7071778420931139,
+    "ci_high": 1.2928221579068897
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_claude-3-5-sonnet-v2@20241022",
+    "market": "CI=True_MA=binary_MYOPIC=True",
+    "effect": 0.7071608946608948,
+    "ci_low": 0.538099942968666,
+    "ci_high": 0.8762218463531236
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_gemini-2.0-flash",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.4444444444444446,
+    "ci_low": 0.1861715425728843,
+    "ci_high": 0.702717346316005
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_grok-2-1212",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.7692307692307712,
+    "ci_low": 0.5543347252090504,
+    "ci_high": 0.984126813252492
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_vertex_ai/mistral-large-2411_bob_o3-mini",
+    "market": "CI=True_MA=text_MYOPIC=False",
+    "effect": 0.1714285714285716,
+    "ci_low": -0.1214253723167726,
+    "ci_high": 0.4642825151739158
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_gemini-1.5-pro",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.1980769230769228,
+    "ci_low": 0.0261915577189079,
+    "ci_high": 0.3699622884349376
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_gpt-4o-mini",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.5814234784823014,
+    "ci_low": 0.3215572323401391,
+    "ci_high": 0.8412897246244636
+   },
+   {
+    "family": "persuasion",
+    "metric": "fairness",
+    "value": "alice_xai/grok-2-1212_bob_mistral-large-2411",
+    "market": "CI=True_MA=text_MYOPIC=True",
+    "effect": 0.148499948095087,
+    "ci_low": -0.0421897436895848,
+    "ci_high": 0.3391896398797589
+   }
+  ]
+ }
+}

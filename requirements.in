@@ -1,0 +1,10 @@
+numpy
+pandas
+nashpy
+pygambit==16.4.1
+scipy
+tqdm
+joblib
+matplotlib
+seaborn
+pytest

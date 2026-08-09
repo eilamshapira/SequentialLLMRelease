@@ -1,0 +1,73 @@
+name: smoke
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Import every module
+        run: |
+          python - <<'EOF'
+          import importlib
+          import pkgutil
+
+          count = 0
+          for package_name in ['core', 'pipeline', 'figures', 'data_preparation']:
+              package = importlib.import_module(package_name)
+              for module in pkgutil.iter_modules(package.__path__):
+                  importlib.import_module(f"{package_name}.{module.name}")
+                  count += 1
+          print(f"Imported {count} modules")
+          assert count >= 15, "unexpectedly few modules found"
+          EOF
+
+      - name: Run test suite
+        run: python -m pytest tests/ -q
+
+      - name: Run pipeline on the synthetic toy family (via Makefile)
+        run: |
+          mkdir -p data
+          cp tests/fixtures/toy.csv data/toy.csv
+          make run-analysis FAMILIES=toy CORES=2 PYTHON=python METRIC=fairness
+          make run-analysis FAMILIES=toy CORES=2 PYTHON=python METRIC=efficiency
+          make run-banning FAMILIES=toy MAX_BANS=3 PYTHON=python METRIC=fairness
+          make run-banning FAMILIES=toy MAX_BANS=3 PYTHON=python METRIC=efficiency
+          python -m pipeline.analyze_results --families toy --metric fairness --transition_metric delta_designer_value
+          python -m pipeline.adversarial_report --families toy --metric fairness
+
+      - name: Run figure scripts on the toy family
+        run: |
+          python -m figures.figure2_plot --all --families toy
+          python -m figures.figure3_pa_rate --families toy --max_bans 3
+          python -m figures.si_banning_heatmap --families toy
+
+      - name: Check outputs exist
+        run: |
+          test -s output/fairness/calculations/comprehensive_transitions_toy_mixed_average.csv
+          test -s output/fairness/calculations/banning_summary_toy_mixed_average.csv
+          test -s output/fairness/summaries/report_mixed_average_delta_designer_value.txt
+          test -s output/fairness/summaries/report_mixed_average_adversarial_impact.txt
+          test -s output/figures/statistics_with_ci.png
+          test -s output/figures/panel_A.png
+          test -s output/figures/banning_pa_rate.pdf
+          test -s output/figures/banning_heatmap_poisoned_apple.png

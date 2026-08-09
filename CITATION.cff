@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Sequential LLM Release Facilitates Manipulation in Regulated Markets — analysis code"
+authors:
+  - family-names: Shapira
+    given-names: Eilam
+  - family-names: Tennenholtz
+    given-names: Moshe
+  - family-names: Reichart
+    given-names: Roi
+repository-code: "https://github.com/eilamshapira/SequentialLLMRelease"
+license: MIT
+version: "1.0.0"
+date-released: "2026-08-09"
+preferred-citation:
+  type: article
+  title: "Sequential LLM Release Facilitates Manipulation in Regulated Markets"
+  authors:
+    - family-names: Shapira
+      given-names: Eilam
+    - family-names: Tennenholtz
+      given-names: Moshe
+    - family-names: Reichart
+      given-names: Roi
+  year: 2026
+  journal: "arXiv preprint"
+  url: "https://arxiv.org/abs/2601.11496"
+  identifiers:
+    - type: other
+      value: "arXiv:2601.11496"

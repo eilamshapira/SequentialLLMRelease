@@ -1,0 +1,87 @@
+--- a/analyze/ML.py	2026-08-08 15:50:31.956798579 +0300
++++ b/analyze/ML.py	2026-08-08 15:58:26.991204850 +0300
+@@ -127,6 +127,7 @@
+ parser.add_argument("--persuasion", type=str, nargs="+")
+ parser.add_argument("--negotiation", type=str, nargs="+")
+ parser.add_argument("--per_market", action="store_true", default=False)
++parser.add_argument("--absolute_values", action="store_true", default=False)
+ 
+ 
+ args = parser.parse_args()
+@@ -314,6 +315,52 @@
+                     })
+         return pd.DataFrame(results)
+ 
++    def get_absolute_params_and_ci(self):
++        results = []
++        cov = self.model.cov_params()
++        params = self.model.params
++        
++        # Intercept (baseline value)
++        intercept = params.get('const', 0.0)
++        var_intercept = cov.loc['const', 'const'] if 'const' in cov else 0.0
++
++        for feature in self.feature_names:
++            baseline = self.baselines[feature]
++            for value in self.all_levels[feature]:
++                if value == baseline:
++                    # Baseline: value is intercept
++                    se = np.sqrt(var_intercept)
++                    results.append({
++                        "param": feature,
++                        "value": value,
++                        "coef": intercept,
++                        "ci_low": intercept - 1.96 * se,
++                        "ci_high": intercept + 1.96 * se,
++                        "baseline": True
++                    })
++                else:
++                    # Non-baseline: value is intercept + coef
++                    key = f"{feature}=={value}"
++                    coef_diff = params.get(key, 0.0)
++                    abs_coef = intercept + coef_diff
++                    
++                    # Variance of sum: Var(const) + Var(beta) + 2*Cov(const, beta)
++                    var_diff = cov.loc[key, key] if key in cov else 0.0
++                    cov_int_diff = cov.loc['const', key] if ('const' in cov and key in cov) else 0.0
++                    
++                    var_abs = var_intercept + var_diff + 2 * cov_int_diff
++                    se = np.sqrt(var_abs) if var_abs > 0 else 0.0
++
++                    results.append({
++                        "param": feature,
++                        "value": value,
++                        "coef": abs_coef,
++                        "ci_low": abs_coef - 1.96 * se,
++                        "ci_high": abs_coef + 1.96 * se,
++                        "baseline": False
++                    })
++        return pd.DataFrame(results)
++
+ 
+ params_per_familiy = {
+     "persuasion": ["game_args_is_myopic",
+@@ -517,7 +564,10 @@
+ 
+                 try:
+                     model.fit(X, y, forced_baselines=forced_baselines)
+-                    df_effects = model.get_params_and_ci_relative_to_baseline()
++                    if args.absolute_values:
++                        df_effects = model.get_absolute_params_and_ci()
++                    else:
++                        df_effects = model.get_params_and_ci_relative_to_baseline()
+                     
+                     for _, row in df_effects.iterrows():
+                         coef_tuple = (
+@@ -570,7 +620,10 @@
+ 
+             model.fit(X, y, forced_baselines=forced_baselines)
+ 
+-            df_effects = model.get_params_and_ci_relative_to_baseline()
++            if args.absolute_values:
++                df_effects = model.get_absolute_params_and_ci()
++            else:
++                df_effects = model.get_params_and_ci_relative_to_baseline()
+             family_split = family + "_" + split if split else family
+ 
+             for _, row in df_effects.iterrows():
