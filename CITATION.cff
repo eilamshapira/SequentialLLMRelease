@@ -11,7 +11,7 @@ authors:
 repository-code: "https://github.com/eilamshapira/SequentialLLMRelease"
 license: MIT
 version: "1.0.0"
-date-released: "2026-08-09"
+date-released: "2026-08-21"
 preferred-citation:
   type: article
   title: "Sequential LLM Release Facilitates Manipulation in Regulated Markets"
@@ -23,7 +23,7 @@ preferred-citation:
     - family-names: Reichart
       given-names: Roi
   year: 2026
-  journal: "arXiv preprint"
+  journal: "arXiv preprint arXiv:2601.11496"
   url: "https://arxiv.org/abs/2601.11496"
   identifiers:
     - type: other
