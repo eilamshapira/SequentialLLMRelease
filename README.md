@@ -36,7 +36,8 @@ Stage 2 enumerates the Nash equilibria of every strategy subset of 13 models
 in every market. Runtime depends strongly on hardware and process count. It
 checkpoints its cache every 256 subsets, so an interrupted run resumes where
 it stopped. Everything downstream reads the cached CSVs and runs in minutes.
-`make clean` never touches these caches; only `make clean-cache` does.
+`make clean` never touches these caches. `make clean-cache` only prints a
+warning; use `make clean-cache-confirm` to delete them explicitly.
 
 The production pipeline uses [Gambit](https://www.gambit-project.org/)
 16.4.1 `enummixed` for every mixed-
@@ -115,14 +116,23 @@ make run-banning  FAMILIES=toy MAX_BANS=3
 
 ## Citation
 
+If you use this repository to reproduce, extend, or discuss the analyses in
+the paper, please cite the paper:
+
 ```bibtex
 @article{shapira2026sequential,
   title  = {Sequential LLM Release Facilitates Manipulation in Regulated Markets},
   author = {Shapira, Eilam and Tennenholtz, Moshe and Reichart, Roi},
   year   = {2026},
+  journal = {arXiv preprint arXiv:2601.11496},
   url    = {https://arxiv.org/abs/2601.11496}
 }
 ```
+
+For work that depends on the exact implementation or a specific released
+version of the code, please additionally cite the software release using the
+repository's `CITATION.cff`. Release `1.0.0` corresponds to the code prepared
+for the paper above.
 
 The raw game data belongs to the [GLEE](https://github.com/eilamshapira/GLEE)
 benchmark; its terms apply to the downloaded data.
